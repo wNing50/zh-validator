@@ -20,7 +20,7 @@
   ],
   "main": "index.ts",
   "scripts": {
-    "dev": "tsdown"
+    "lint": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.1",
@@ -28,7 +28,6 @@
     "eslint": "^9.20.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.5.1",
-    "tsdown": "^0.9.6",
     "typescript": "^5.8.3"
   },
   "lint-staged": {
